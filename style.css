@@ -13,6 +13,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .d1{
     width: 50%;
@@ -39,4 +40,9 @@ section img {
 .top-banner{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
 }
