@@ -11,7 +11,7 @@ body{
 .s1{
     color: orange;
 }
-section{
+.flexiable{
     display: flex;
     margin-bottom: 200px;
 }
@@ -45,4 +45,27 @@ section img {
     background-image: url(images/dream-bg.png);
     background-repeat:no-repeat;
     background-position:right;
+}
+.bg-img{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.div1{
+    box-shadow:15px 15px 10px gray;
+    width:40%;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+#border1{
+    border-left:7px solid rgb(255, 99, 71);
+}
+#border2{
+    border-left:7px solid blue;
+}
+footer p{
+    text-align:center;
+    font-weight: bold;
 }
