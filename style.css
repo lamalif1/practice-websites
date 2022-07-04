@@ -5,6 +5,7 @@ body{
     font-family: 'The Nautigal', cursive;
     font-family: 'Titan One', cursive;
     font-family: 'Trispace', sans-serif;
+    margin:0;
 
 }
 .s1{
@@ -17,9 +18,10 @@ section{
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 10px;
 }
 section img {
-    width: 100%;
+    width: 80%;
 }
 .s2{
     background-image:linear-gradient(rgb(5, 145, 63), rgb(235, 13, 13));
@@ -33,4 +35,8 @@ section img {
 }
 .s3{
     padding-bottom:20px;
+}
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
